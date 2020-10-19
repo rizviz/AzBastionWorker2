@@ -1,4 +1,5 @@
 #!/bin/bash
+# Adding syntax checking and user input
 if [ -z "$1" ]
   then
     echo

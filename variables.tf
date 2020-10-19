@@ -12,8 +12,8 @@ variable "tags" {
         infrastructureversion   = "1.0.0"
         projectcostcenter       = "0570025003"
         operatingcostcenter     = "0570025003"
-        owner                   = "fireteamosiris@somedomain.com"
-        securitycontact         = "fireteamosiris@somedomain.com"
+        owner                   = "devops@irsols.com"
+        securitycontact         = "devops@irsols.com"
         confidentiality         = "PII/PHI"
         compliance              = "HIPAA"
     }

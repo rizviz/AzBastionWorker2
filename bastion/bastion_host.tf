@@ -32,7 +32,7 @@ resource "azurerm_virtual_machine" "bastion_vm" {
         # Bastion host VM public key.
         ssh_keys {
             path     = "/home/${var.username}/.ssh/authorized_keys"
-            key_data = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCfDfs/Q+wMLKKxkfKK2TbsJrSvnOV3G/dNoTPcQyq96gEpP7wOoy4++1hkeYhKZEkE+Ni6A6KId8KzTQlbtgnXMyoKwbNDFFJMzAIyZdFHeuRBLxenWK01SKWLL6N8KQ0aFz0d8hUXMhJODCyRZdZHT4u/2v1CI4g1br503Aqo3c2O+uBPhUIM0xJZAG8d+F83QlQZHr07XjdIAKx5KOgoLX6XB/OWZ+YEIlITatYX5mHOcujv1CwcytVeMfDg8x5VHhHTDipjKX/ikROqq0iAng1voTtuz4CDXMckUuaI7k9KTGnhumBzcTYArFMUZWFqJZax8m5y2oI2VHMvGMjzk680Y5VGIbboRi2PbrAbmWTn7SpTJF5One6Y8PBXOLIju7IO/rUAPstwXm/gEXswFSsU6pI/ol/s4JdD2Xx3n9o+ObVafAQwQl9scabpdXJkfjkLrqvZOCR1//FjgktVXNYI+XbAkyBA3pR/jWa2aWYuLYHArQp/NG9aCDGdZjGdlrkSNm/y29rzVN6H7cXSLYG7te3NEAJehARLLVqon0mdfpYGluhYxBwC8pxJHi9sew0n0gVM4kjIjvrapFVBfX9BzQKrZMkXLi6bt2rx6ktgWUSLcmak7Du5JzQZaJnTkEpHxK52NvqIQo0Nziq7gWeBm6KMxp1B5fuVRNZNPw=="
+            key_data = ""
         }
     }
 
